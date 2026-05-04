@@ -1,1 +1,24 @@
+# Build Notes
 
+## Issue 1: Servo rotating continuously
+- Cause: No common ground
+- Fix: Connected Arduino GND to power supply GND
+
+---
+
+## Issue 2: Servo not moving
+- Cause: Incorrect power setup (converter not powered)
+- Fix: Properly connected DC-DC converter input/output
+
+---
+
+## Issue 3: Abrupt movement
+- Cause: Direct angle jumps
+- Fix: Implemented smooth stepping logic
+
+---
+
+## Learnings
+- Power systems are critical in robotics
+- Common ground is mandatory
+- Debugging hardware requires systematic testing
