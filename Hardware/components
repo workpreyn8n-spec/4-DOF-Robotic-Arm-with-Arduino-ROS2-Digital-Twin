@@ -1,0 +1,28 @@
+# Components Used
+
+## Arduino Uno
+- Microcontroller used for servo control
+- Chosen for simplicity and compatibility
+
+## MG90S Servos
+- Metal gear micro servos
+- Provide sufficient torque for robotic arm
+
+## 5V Power Supply
+- External regulated supply
+- Required to handle servo current
+
+## EEZYbotARM
+- 3D printed robotic arm structure
+- Lightweight and beginner-friendly
+
+---
+
+## Why External Power?
+Servos draw high current. Using Arduino 5V causes instability.
+
+---
+
+## Alternatives
+- PCA9685 servo driver
+- Raspberry Pi (for high-level control)
