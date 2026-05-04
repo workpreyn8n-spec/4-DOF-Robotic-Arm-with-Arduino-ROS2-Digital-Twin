@@ -1,0 +1,14 @@
+# Wiring Overview
+
+- External 5V supply powers all servos
+- Arduino provides only signal
+- Common ground is mandatory
+
+## Pin Mapping
+
+| Joint     | Arduino Pin |
+|----------|------------|
+| Base     | D3         |
+| Shoulder | D10        |
+| Elbow    | D11        |
+| Gripper  | D9         |
